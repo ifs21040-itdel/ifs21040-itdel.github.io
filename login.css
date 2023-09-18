@@ -1,0 +1,79 @@
+header {
+    background-color: #f7f7f7;
+    color: white;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  h1 {
+    color: #1098ad;
+    font-weight: bold;
+    font-style: italic;
+  }
+  a {
+    color: #1098ad;
+    font-weight: bold;
+  }
+  hr {
+    border: 5px solid  #1098ad;
+  }
+  h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #1098ad;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 100px;
+    background-color: #1098ad;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #1098ad;
+  }
+  
+  div {
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .confirm {
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+    align-items: center;
+  }
+  .container{
+    display: flex;
+  }
+  .login-container{
+    align-items: center;
+  }
+  .register-container{
+    align-items: center;
+  }
